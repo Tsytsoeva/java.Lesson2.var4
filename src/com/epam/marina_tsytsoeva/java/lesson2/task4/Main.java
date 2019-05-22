@@ -3,6 +3,11 @@ package com.epam.marina_tsytsoeva.java.lesson2.task4;
 
 import com.epam.marina_tsytsoeva.java.lesson2.task4.planes.*;
 
+/**
+ * @author  Marina Tsytsoeva
+ * Lesson2.version4
+ */
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,6 +24,6 @@ public class Main {
         airline.showAirplanes();
 
 //find Planes By FlightRange
-    airline.findPlanesByFlightRange(2000, 3000);
+    airline.findPlanesByFlightRange(2500, 3000);
     }
 }
